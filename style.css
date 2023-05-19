@@ -23,19 +23,55 @@ box-sizing: border-box;
 }
 #header{
     grid-area:header;
+   
+    display: flex;
     height:13vh;
     background-position-y: -50vh;
+    background-image: url(./images.jfif);
+    background-position: top;
+    background-size: cover;
+    gap: 12px;
 
 }
+
+h1{
+    font-size: 60px;
+    color: #ec6743;
+    font-family: montserrat;
+}
 .icone{
-   width: 20px;
+   width: 71px;
+   height: 71px;
+   border-radius: 24px;
+   align-items: ;
+}
+.pesquisa{
+    
+    width: 310px;
+    height: 50px;
+}
+
+.cascao{
+    width: 80px;
+    height: 60px;
+    border-radius: 120px;
+   align-items: center;
+
+
 }
 #sidebar{
     grid-area:sidebar;
     height: 82.21vh;
     width: 40vh;
-   background-image: url();
-   image-rendering:;
+    background-color: #151415;
+   background-image: url(./images.jfif);
+   background-position: left;
+   background-repeat: no-repeat;
+   background-size: cover;
+   opacity: ;
+   z-index: -1;
+   
+ 
 
 }
 #content{
@@ -45,7 +81,7 @@ box-sizing: border-box;
     background-image: url(./ham.png);
     background-size: cover;
     background-position: center;
-   
+ 
 }
 
 #footer{
