@@ -63,17 +63,16 @@ h1{
     grid-area:sidebar;
     height: 82.21vh;
     width: 40vh;
-    background-color: #151415;
-   background-image: url(./images.jfif);
-   background-position: left;
+   background-image: url(./SIdebar.png);
    background-repeat: no-repeat;
    background-size: cover;
    opacity: ;
    z-index: -1;
+  
    
- 
-
 }
+   
+
 #content{
     grid-area:content; 
     height: 46vh;
@@ -113,4 +112,12 @@ h1{
     width: 20px;
     grid-area: footer;
   
+}
+@media (max-width:768px){
+    body{
+
+    }
+    header{
+        width: 50px;
+    }
 }
